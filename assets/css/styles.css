@@ -7,18 +7,15 @@ body {
 h3,
 h4,
 h6 {
-	color: #4aaaa5;
-	font-family: serif;
+	color: #60a400;
 	font-weight: bold;
 }
 /*------x-------Global Styling------x-------*/
 #contact,
 #about-me {
-	font-family: serif;
 	padding-top: 20px;
-	color: #4aaaa5;
+	color: #60a400;
 	font-size: 60px;
-	font-weight: bold;
 }
 #content-col {
 	margin-bottom: 50px;
@@ -29,11 +26,12 @@ h6 {
 /* Navbar-Brand Styling */
 
 .navbar-brand {
-	color: white !important;
-	background: #4aaaa5;
+	color: #60a400 !important;
 	font-weight: bold;
-	font-family: serif;
 	font-size: 30px;
+}
+.active a {
+	color: #60a400 !important;
 }
 /*-------x----- Navigation Styling-----x------ */
 
@@ -49,15 +47,15 @@ h6 {
 
 /* Contact Page */
 .btn-primary {
-	background-color: #4aaaa5;
+	background-color: #60a400;
 	transition: background-color 0.5s ease;
 	border: none;
 	border-radius: 0%;
 	margin-bottom: 35px;
 }
 .btn-primary:hover {
-	background-color: #4aaa;
-	border: solid 1px #4aaaa5;
+	background-color: #60a500;
+	border: solid 1px #60a400;
 	border-radius: 0%;
 	margin-bottom: 35px;
 }
@@ -69,7 +67,7 @@ h6 {
 }
 
 #card-text {
-	color: #4aaaa5;
+	color: #60a400;
 	font-weight: bold;
 	font-size: 1.2rem;
 }
@@ -89,7 +87,7 @@ h6 {
 	position: fixed;
 	bottom: 0;
 	margin-top: 50px;
-	border-top: solid 5px #4aaaa5;
+	border-top: solid 5px #60a400;
 	width: 100%;
 	height: 60px; /* Set the fixed height of the footer here */
 	line-height: 60px; /* Vertically center the text there */
