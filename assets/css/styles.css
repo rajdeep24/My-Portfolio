@@ -1,0 +1,98 @@
+/*-------------Global Styling-------------*/
+body {
+	height: auto;
+	width: 100vw;
+	background-image: url("../images/ignasi_pattern_s.png");
+}
+h3,
+h4,
+h6 {
+	color: #4aaaa5;
+	font-family: serif;
+	font-weight: bold;
+}
+/*------x-------Global Styling------x-------*/
+#contact,
+#about-me {
+	font-family: serif;
+	padding-top: 20px;
+	color: #4aaaa5;
+	font-size: 60px;
+	font-weight: bold;
+}
+#content-col {
+	margin-bottom: 50px;
+}
+
+/*------------- Navigation Styling----------- */
+
+/* Navbar-Brand Styling */
+
+.navbar-brand {
+	color: white !important;
+	background: #4aaaa5;
+	font-weight: bold;
+	font-family: serif;
+	font-size: 30px;
+}
+/*-------x----- Navigation Styling-----x------ */
+
+/*--------------Main Content Styling------------*/
+
+/* About Me page */
+
+.pull-left {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+/* Contact Page */
+.btn-primary {
+	background-color: #4aaaa5;
+	transition: background-color 0.5s ease;
+	border: none;
+	border-radius: 0%;
+	margin-bottom: 35px;
+}
+.btn-primary:hover {
+	background-color: #4aaa;
+	border: solid 1px #4aaaa5;
+	border-radius: 0%;
+	margin-bottom: 35px;
+}
+/* Contact Page - Social Media */
+.list-group-item a img {
+	height: 50px;
+	width: 50px;
+	opacity: 0.7;
+}
+
+#card-text {
+	color: #4aaaa5;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+/* Portfolio Styling */
+.card-img-top {
+	padding: 10px;
+	padding-bottom: 35px;
+}
+.card {
+	border: none;
+}
+
+/*-------X-------Main Content Styling------X------*/
+
+/*--------------Footer Styling------------------- */
+.footer {
+	position: fixed;
+	bottom: 0;
+	margin-top: 50px;
+	border-top: solid 5px #4aaaa5;
+	width: 100%;
+	height: 60px; /* Set the fixed height of the footer here */
+	line-height: 60px; /* Vertically center the text there */
+}
+
+/*-------x-----Footer Styling----------x-------- */

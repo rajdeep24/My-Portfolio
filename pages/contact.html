@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Contact</title>
+		<meta
+			name="description"
+			content="Get it touch with Raj Kakar by directly emailing or connecting with him on one of his social media channels."
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Style Sheets: The first stylesheet links the cdn path for bootstrap. The second style sheet links the relative stylesheet path for our custom styles -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+	</head>
+
+	<body>
+		<!-- Navigation: The Start-->
+		<!-- The following navigation is leveraged and modified from bootstrap -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<!-- The navbar-band is a clickable element that is placed on the left side of each page. Clicking the element will direct you to the home/about page. -->
+			<a class="navbar-brand" href="./index.html">Raj Kakar</a>
+			<!-- The button below is  -->
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNav"
+				aria-controls="navbarNav"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<!-- Positioned navbar-nav list items to the right by assigning the bootstrap class ml-auto -->
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="./contact.html"
+							>Contact<span class="sr-only">(current)</span></a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./portfolio.html">Portfolio</a>
+					</li>
+					<!-- The link below titled "About" is declared the active link -->
+					<li class="nav-item">
+						<a class="nav-link" href="./index.html">About</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Navigation: The End-->
+
+		<!-- Main Content -->
+		<main>
+			<div class="container my-5">
+				<div class="row">
+					<div class="col-sm-10 bg-light" id="content-col">
+						<div class="row">
+							<div class="col-sm-12">
+								<header>
+									<h1 id="contact">Contact</h1>
+								</header>
+								<hr />
+								<div class="row">
+									<div class="col-sm-9">
+										<!-- This is the start of the contact form: Leveraged from getbootstrap documentation -->
+										<section>
+											<form>
+												<div class="form-group">
+													<label for="exampleInputName1">Name</label>
+													<input
+														type="name"
+														class="form-control"
+														id="exampleInputName1"
+														aria-describedby="emailHelp"
+														placeholder="Name"
+													/>
+												</div>
+												<div class="form-group">
+													<label for="exampleInputEmail1">Email address</label>
+													<input
+														type="email"
+														class="form-control"
+														id="exampleInputEmail1"
+														aria-describedby="emailHelp"
+														placeholder="Email"
+													/>
+												</div>
+												<div class="form-group">
+													<label for="exampleFormControlTextarea1">Message</label>
+													<textarea
+														class="form-control"
+														id="exampleFormControlTextarea1"
+														rows="3"
+														placeholder="Message"
+													></textarea>
+												</div>
+												<button type="submit" class="btn btn-primary">Submit</button>
+											</form>
+										</section>
+									</div>
+									<!-- Social Media Links -->
+									<div class="col-sm-3">
+										<aside>
+											<div class="row">
+												<div class="col-sm-12">
+													<div class="card border">
+														<div class="card-header text-center">
+															<p id="card-text">Social</p>
+														</div>
+														<ul class="list-group align-items-center">
+															<li class="list-group-item border-0">
+																<a
+																	href="https://www.linkedin.com/in/raj-kakar-ba2a3b1a/"
+																	target="_blank"
+																	><img
+																		src="./assets/images/social_media_fonts/linkedin.svg"
+																		alt="linkedin Icon"
+																/></a>
+															</li>
+															<li class="list-group-item border-0">
+																<a href="https://github.com/rajdeep24" target="_blank"
+																	><img
+																		src="./assets/images/social_media_fonts/github.svg"
+																		alt="Github icon"
+																/></a>
+															</li>
+															<li class="list-group-item border-0">
+																<a href="https://twitter.com/Raj_Kakar" target="_blank"
+																	><img
+																		src="./assets/images/social_media_fonts/twitter.svg"
+																		alt="linkedin Icon"
+																/></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</aside>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</main>
+		<!-- Main Content: The End -->
+
+		<!-- Footer: The Start -->
+		<footer class="footer bg-secondary text-info">
+			<!-- Leveraged the container-fluid to span the footer bar across the screen -->
+			<div class="container-fluid">
+				<div class="row justify-content-center text-center">
+					<p>© Copyright Raj Kakar</p>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer: The End -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
