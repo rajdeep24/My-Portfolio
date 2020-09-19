@@ -2,15 +2,13 @@
 
 ## Description
 
-For our week-2 assignment, I developed a mobile first, responsive portfolio website. The responsive website dynamically adjusts to various view points. For example, the website can be viewed on large desktops and smart phones.
-
 The purpose of this website is to be able to provide a background of my qualifications, skill sets, experiences, interests, and how someone can reach me. Additionally, the portfolio website also allows me to display my projects to potential employers or founders.
 
 Below are links to the webpage and the github repository for my portfolio website:
 
-Github Pages URL: <>
+Github Pages URL: <https://rajdeep24.github.io/My-Portfolio/>
 
-Github Repository: <>
+Github Repository: <https://github.com/rajdeep24/My-Portfolio>
 
 ## Table of Contents (Optional)
 
@@ -27,23 +25,9 @@ No installation required. Simply view the application by clicking on the followi
 
 ## Usage
 
-Below are screen shots of the website from a mobile and desktop perspective:
+Bellow is a screenshot of my portfolio website.
 
-### Mobile
-
-![About-Me-page](/assets/images/app_screen_shots/mobile_view_about.PNG)
-
-![Contact-page](/assets/images/app_screen_shots/mobile_view_contact.PNG)
-
-![Portfolio-page](/assets/images/app_screen_shots/mobile_view_portfolio.PNG)
-
-### Desktop
-
-![About-Me-page](/assets/images/app_screen_shots/desktop_view_about.PNG)
-
-![Contact-page](/assets/images/app_screen_shots/desktop_view_contact.PNG)
-
-![Portfolio-page](/assets/images/app_screen_shots/desktop_view_portfolio.PNG)
+![About-Me-page](./assets/images/app_screen_shots/About_me.PNG)
 
 ## Credits
 
