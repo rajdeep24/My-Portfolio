@@ -50,13 +50,12 @@ h6 {
 	background-color: #60a400;
 	transition: background-color 0.5s ease;
 	border: none;
-	border-radius: 0%;
+	border-radius: 5%;
 	margin-bottom: 35px;
 }
 .btn-primary:hover {
-	background-color: #60a500;
-	border: solid 1px #60a400;
-	border-radius: 0%;
+	background-color: #60a400;
+	border: solid 2px black;
 	margin-bottom: 35px;
 }
 /* Contact Page - Social Media */
